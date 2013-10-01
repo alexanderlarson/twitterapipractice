@@ -1,0 +1,7 @@
+<h1>Recent Tweets</h1>
+
+<table>
+  <% @tweets.each do |singletweet| %>
+    <tr><%= singletweet.tweet %></tr>
+  <% end %>
+</table>
